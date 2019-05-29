@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Siemkins07/Weather_app/static/css/main.181ce836.chunk.css",
+    "main.js": "/Siemkins07/Weather_app/static/js/main.75500872.chunk.js",
+    "main.js.map": "/Siemkins07/Weather_app/static/js/main.75500872.chunk.js.map",
+    "runtime~main.js": "/Siemkins07/Weather_app/static/js/runtime~main.6c274ced.js",
+    "runtime~main.js.map": "/Siemkins07/Weather_app/static/js/runtime~main.6c274ced.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/Siemkins07/Weather_app/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/Siemkins07/Weather_app/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/Siemkins07/Weather_app/index.html",
+    "precache-manifest.b5b4e4af63b3096c9dbc081949de02f2.js": "/Siemkins07/Weather_app/precache-manifest.b5b4e4af63b3096c9dbc081949de02f2.js",
+    "service-worker.js": "/Siemkins07/Weather_app/service-worker.js",
+    "static/css/main.181ce836.chunk.css.map": "/Siemkins07/Weather_app/static/css/main.181ce836.chunk.css.map"
+  }
+}

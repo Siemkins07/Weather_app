@@ -2,7 +2,7 @@
   "name": "cra_weather_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Siemkins07.github.io/Weather_app/",
+  "homepage": "https://siemkins07.github.io/Weather_app/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, {
+    Component
+} from 'react';
 import './App.css';
 import Form from './Form';
 import Result from './Result'
@@ -38,8 +40,6 @@ class App extends Component {
             })
             .then(response => response.json())
             .then(result => {
-                console.log(result)
-
                 const time = new Date().toLocaleString()
                 this.setState(prevState => ({
                     error: false,
@@ -50,7 +50,8 @@ class App extends Component {
                     temp: result.main.temp,
                     pressure: result.main.pressure,
                     wind: result.wind.speed,
-                    iconCode: result.weather[0].icon
+                    iconCode: result.weather[0].icon,
+                    value: ""
                 }))
             })
             .catch(err => {
@@ -62,11 +63,25 @@ class App extends Component {
     }
 
     render() {
-        return (
-            <div className='app'>
-                <Form value={this.state.value} placeholder='Wpisz miasto' change={this.handleInputChange} search={this.handleCitySearch} />
-                <Result weather={this.state} />
-            </div>
+        return ( <
+            div className = 'app' >
+            <
+            Form value = {
+                this.state.value
+            }
+            placeholder = 'Wpisz miasto'
+            change = {
+                this.handleInputChange
+            }
+            search = {
+                this.handleCitySearch
+            }
+            /> <
+            Result weather = {
+                this.state
+            }
+            /> <
+            /div>
         );
     }
 }
@@ -83,7 +98,7 @@ export default App;
 
 
 
-    // 4. FETCH THROW CATCH Dodawanie kolejnych userów + foto z api
+// 4. FETCH THROW CATCH Dodawanie kolejnych userów + foto z api
 
 // import React, {
 //     Component

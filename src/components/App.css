@@ -4,15 +4,30 @@
     padding: 10px 20px;
     border: 2px solid gray;
     background-color: #fff;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #2c2c54;
+    font-family: 'Inconsolata', monospace;
+}
+
+.app input {
+    letter-spacing: 1px;
 }
 
 .app button {
     cursor: pointer;
-    transition: .3s
+    transition: .3s;
+    text-transform: uppercase;
 }
 
 .app button:hover {
-    background-color: #000;
+    background-color: #2c2c54;
     color: white;
     border-color: black;
+    font-weight: bold;
+}
+
+.app input:hover,
+.app input:focus {
+    box-shadow: 0 0 10px #2c2c54;
 }

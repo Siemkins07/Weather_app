@@ -14,15 +14,13 @@ const Result = (props) => {
 
         content = (
             <>
-                <h3>Wyniki wyszukiwania dla <em>{city.toUpperCase()}</em></h3>
+                <h3><em>{city.toUpperCase()}</em><img src={`http://openweathermap.org/img/w/${iconCode}.png`} alt="grafika" /></h3>
                 <h4>Stan aktualny na: {date}</h4>
                 <h4>Temperatura: {tempFixed} &#176;C</h4>
-                <h4>Wiatr: {wind} m/s
-                <img src={`http://openweathermap.org/img/w/${iconCode}.png`} alt="grafika" /></h4>
+                <h4>Wiatr: {wind} m/s</h4>
                 <h4>Ciśnienie: {pressure} hPa</h4>
                 <h5>Wschód Słońca o: {sunriseTime}</h5>
                 <h5>Zachód Słońca o {sunsetTime}</h5>
-
             </>
         )
     }
